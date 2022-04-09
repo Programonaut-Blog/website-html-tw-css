@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply italic;
+}
+
+a:hover {
+    @apply underline decoration-black;
+}
+
+code {
+    @apply bg-stone-300 p-1 rounded-sm;
+}
